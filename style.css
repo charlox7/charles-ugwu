@@ -1,0 +1,96 @@
+/* styles.css */
+ body, h1, h2, p {
+      margin: 0;
+      padding: 0;
+	  font-family: Georgia, sans-serif;
+    }
+	header {
+		padding: 40px;
+	  font-family: Georgia, sans-serif
+	}
+	 .logo {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .nav {
+      margin-top: 10px;
+    }
+    
+    .nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    
+    main {
+      margin: 20px;
+    }
+    
+    #introduction {
+      margin-bottom: 30px;
+    }
+	   
+    #introduction h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    #introduction p {
+      font-size: 16px;
+    }
+    
+    #publications {
+      margin-bottom: 30px;
+	  flex-wrap: wrap;
+    }
+    
+    #publications h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    #publications ul {
+      list-style-type: none;
+    }
+    
+    #publications li {
+      margin-bottom: 10px;
+    }
+	#search-bar {
+			float: right;
+			margin-top: 10px;
+		}
+
+	  #search-bar form {
+			display: inline-block;
+		}
+      #search-bar input[type="text"] {
+			padding: 5px;
+			border: none;
+			border-radius: 5px;
+		}
+
+	  #search-bar button[type="submit"] {
+			padding: 5px 10px;
+			background-color: #337ab7;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	   #hr{
+	   color: black;
+	   width: 100%;
+	   }
+	   a {
+			color: black;
+			text-decoration: underline;
+			}
+
+		a:hover {
+			color: blue;
+		}

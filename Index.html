@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<meta name = "Author" content = "Charles">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Charles Personal Website</title>
+  <style>
+    body {
+	  width: 60%;
+	  margin: 10%;
+      padding: 10%;
+	  height: 200%;
+	  position: absolute;
+	  margin-bottom: 0%;
+	  margin-top: 0%;
+	  padding-top: 0%;
+	  padding-bottom: 0%;
+    }
+    
+    header {
+      background-color: #0A3926;
+      color: #ffffff;
+    }
+	flexed{
+	  display:flex;
+	  position: absolute:
+	  top: 0;
+	  right: 0;
+	  margin: 20px;
+	  flex-wrap: wrap;
+	  justify-content:flex-end;
+	  align-items:flex-start;
+      }
+    
+    footer {
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		background-color: #0A3926;
+		color: #ffffff;
+		padding: 10px;
+		text-align: center;
+		}
+     aside{
+	  background-color: #D9EBD8;
+	  padding:10pt;
+	  overflow:hidden;
+	  width: 40%;
+	  height: 100%;
+	  flex-wrap: wrap;
+	  margin: 20px;
+	  left: 15%;
+      }
+	 .image-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		top: 20%;
+		right: 15%;
+		margin-top: 0;
+		flex-wrap: wrap;
+		}
+	  
+		.text{
+		flex-basis: 50%;
+		}
+		.image{
+		flex-basis: 40%;
+		margin-right: 20px;
+		}
+		 @media only screen and (max-width: 1000px) {
+    .image-container {
+      position: static;
+      margin-top: 20px;
+      width: 100%;
+	  align-items: center;
+	  margin-right: 0;
+	  margin-left: 5px;
+    }
+    
+    .image {
+      flex-basis: 100%;
+      margin-right: 0;
+	  margin-left: 5px;
+	  align-items: center;
+    }
+    
+    .text {
+      flex-basis: 150%;
+    }
+	 aside{
+	  background-color: #D9EBD8;
+	  padding:10pt;
+	  width: 80%;
+	  height: 130%;
+	  flex-wrap: wrap;
+	  margin: 20px;
+	  left: 15%;
+      }
+  }
+  @media only screen and (max-width: 768px) {
+  .image-container {
+      position: static;
+      margin-top: 20px;
+      width: 100%;
+	  align-items: center;
+	  margin-right: 0;
+	  margin-left: 5px;
+    }
+    
+    .image {
+      flex-basis: 100%;
+      margin-right: 0;
+	  margin-left: 5px;
+	  align-items: center;
+    }
+    
+    .text {
+      flex-basis: 150%;
+    }
+	 aside{
+	  background-color: #D9EBD8;
+	  padding:10pt;
+	  width: 80%;
+	  height: 100%;
+	  flex-wrap: wrap;
+	  margin: 10px 0;
+	  left: 15%;
+	  flex-basis: 150%;
+      }
+}
+  </style>
+</head>
+<body>
+  <header>
+  
+    <div class="logo">Charles' Website</div>
+    <nav class="nav">
+      <a href =" Index.html"> About</a>
+      <a href = "Projects.html"> Projects</a>
+	  <a href ="Hobbies.html"> Hobbies & Interests</a>
+	  <div id="search-bar">
+  <form action="Home.html" onsubmit="return search()">
+    <input type="text" id="search-input" placeholder="Search...">
+    <button type="submit">Go</button>
+  </form>
+</div>
+
+    </nav>
+  </header>
+  
+  
+  <aside>
+    <section id="introduction">
+      <center><h1>About Me</h1></center>
+     <hr>
+    </section>
+	
+	<div class = "text">
+Welcome to my Bio Page!<br>
+<br>
+Hello, and thank you for visiting my website! My name is Chibuike Charles Ugwu,
+and I'm thrilled to share a bit about myself with you. Whether you're a potential
+employer or a friend, I hope this page gives you a glimpse into my background,
+skills, and passions. Professionally, I am a dedicated and accomplished 
+individual with a diverse skill set. With 3 educational years of experience in
+Computing and Informational Studies and Economics, I have honed my expertise in 
+various data analysis tools, programming languages and media editing software. 
+I take pride in my ability to thrive under pressure and work effectively with
+anyone, and I strive for excellence in everything I do. 
+Throughout my career, I have consistently demonstrated strong problem-solving, 
+leadership, and communication, which have 
+contributed to my success in delivering impactful results. In addition to
+my professional pursuits, I am a firm believer in personal growth and 
+continuous learning. I have a passion for soccer, table tennis and video games. 
+These activities not only serve as creative
+outlets but also enhance my problem-solving skills, foster my adaptability,
+and keep me inspired. I firmly believe in the power of lifelong learning and
+seek opportunities to expand my knowledge in software programming and data
+analysis. Beyond my professional and personal endeavors, 
+I value meaningful connections and building relationships. I genuinely enjoy
+collaborating with others and believe that diverse perspectives can lead to
+innovative solutions. As a team player, I strive to create a positive and
+inclusive environment where everyone feels empowered to contribute their 
+best. Whether it's working alongside colleagues or collaborating with 
+clients, I am dedicated to fostering strong partnerships based on trust,
+respect, and open communication. 
+Thank you for taking the time to learn more about me. 
+If you have any questions or would like to connect, please 
+don't hesitate to reach out. I look forward to the opportunity 
+to connect and discuss how I can contribute to your team or simply
+share some friendly conversation. You can also download my cv 
+<a href="Charles_Ugwu_Resume.pdf">here</a>. <br>
+<br>
+
+Best regards,<br>
+
+Charles Ugwu.
+	
+	
+	
+    
+	</div>
+	</aside>
+    <!-- -->
+	 
+	 <div class = "image-container">
+	<div class = "image">
+	<img src="meSmile.jpg" alt="Face" height = "500px" width = "300px"> </img>
+	</div>
+	</div>
+ 
+  
+  
+  <footer>
+    <p>Contact: Ugwucc@washjeff.edu | Phone: 724-470-5080</p>
+  </footer>
+  
+</body>
+</html>
